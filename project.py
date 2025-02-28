@@ -6,11 +6,11 @@ from streamlit_folium import st_folium
 from scipy.signal import butter, filtfilt
 from math import radians, cos, sin, asin, sqrt
 
-path_acceleration = 'Linear Accelerometer.csv'
-df_acceleration = pd.read_csv(path_acceleration)
+url_acceleration = 'https://raw.githubusercontent.com/AapoKiiskila/Streamlit-physics-project/refs/heads/main/Linear%20Accelerometer.csv'
+df_acceleration = pd.read_csv(url_acceleration)
 
-path_location = 'Location.csv'
-df_location = pd.read_csv(path_location)
+url_location = 'https://raw.githubusercontent.com/AapoKiiskila/Streamlit-physics-project/refs/heads/main/Location.csv'
+df_location = pd.read_csv(url_location)
 
 
 
